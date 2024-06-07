@@ -1,0 +1,51 @@
+body {
+  font-family:  'Roboto', sans-serif;
+  margin-top: 50px;
+}
+
+ul li {
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 3cm;
+  text-align: center;
+  color: rgb (201, 178, 190);
+}
+
+.input {
+  border: slateblue;
+  width: 100%;
+  padding: 30px;
+}
+
+.task-card {
+  background: #fff;
+}
+  
+  .ultimo-item{
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px; 
+  padding: 10px; 
+}
+
+.task-card:not(:last-child) {
+  box-shadow: none;
+}
+
+.task-footer p {
+  text-align: left;
+  font-size: 12px; 
+  color: lightgray;
+}
+
+i {
+  cursor: pointer;
+}
