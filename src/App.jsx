@@ -1,13 +1,12 @@
+import Todos from './Components/Todos.jsx';
 
-import Todos from './components/Todos'
 
-function App() {
-
+const App = () => {
   return (
     <>
-      <Todos />
+    <Todos />
     </>
-  )
-}
+  );
+};
 
 export default App

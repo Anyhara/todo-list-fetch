@@ -1,6 +1,8 @@
 body {
   font-family:  'Roboto', sans-serif;
   margin-top: 50px;
+  color:rgb(191, 0, 255);
+  background-color: rgba(252, 217, 227, 0.382);
 }
 
 ul li {
@@ -48,4 +50,19 @@ h1 {
 
 i {
   cursor: pointer;
+}
+
+.buttons {
+  border: none; 
+  color: black; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-block;
+  margin:20px;
+  text-align: center;
+}
+.createUser, .deleteUser{
+.danger {background-color: white; border: 2px solid #f44336;} 
+.danger:hover {background: #da190b; color: white;}
 }
